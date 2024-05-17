@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://ds7ovnguodnf0"]
+
+[ext_resource type="Texture2D" uid="uid://dercc8p1hkbi3" path="res://assets/npc_sprites-Sheet.png" id="1_yuhml"]
+
+[node name="Game" type="Node2D"]
+position = Vector2(721, 358)
+
+[node name="NpcSprites-sheet" type="Sprite2D" parent="."]
+position = Vector2(-62, -54)
+texture = ExtResource("1_yuhml")
