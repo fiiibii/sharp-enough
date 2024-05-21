@@ -1,8 +1,8 @@
 extends CanvasLayer
 
-@onready var start_button = $MarginContainer/CenterContainer/VBoxContainer/StartButton
-@onready var settings_button = $MarginContainer/CenterContainer/VBoxContainer/SettingsButton
-@onready var quit_button = $MarginContainer/CenterContainer/VBoxContainer/QuitButton
+@export var start_button: Button
+@export var settings_button: Button
+@export var quit_button: Button
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
